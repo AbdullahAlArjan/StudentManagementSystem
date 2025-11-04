@@ -1,10 +1,13 @@
-﻿namespace StudentManagementSystem
+﻿using StudentManagementSystem.Presentation;
+
+namespace StudentManagementSystem
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            MenuManager menu = new MenuManager();
+            menu.run();
         }
     }
 }

@@ -8,6 +8,6 @@ namespace StudentManagementSystem.Data
 {
     static class DataAccessSettings
     {
-        public static string connectionString = "Server=192.168.100.7,1433;Database=StudentsDB;User Id=sa;Password=123456;Encrypt=False;TrustServerCertificate=True;";
+        public static string connectionString = "Server=192.168.100.7,1433;Database=StudentDB;User Id=sa;Password=123456;Encrypt=False;TrustServerCertificate=True;";
     }
 }
